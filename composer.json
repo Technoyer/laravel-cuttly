@@ -1,0 +1,17 @@
+{
+    "name": "technoyer/laravel-cuttly",
+    "description": "Helping developers using Cutt.ly API for shorter URLs",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Technoyer\\LaravelCuttly\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamed Gomaa",
+            "email": "technoyer@gmail.com"
+        }
+    ],
+    "require": {}
+}
