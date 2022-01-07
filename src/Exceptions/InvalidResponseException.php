@@ -7,6 +7,8 @@
  */
 namespace Technoyer\Cuttly\Exceptions;
 
+use Exception;
+
 class InvalidResponseException extends Exception
 {
 
