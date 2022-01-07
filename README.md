@@ -1,5 +1,5 @@
 # laravel-cuttly
-================
+
 The cutt.ly package for Laravel
 
 Installation
@@ -43,13 +43,14 @@ Add this line in **.env** file
 CUTTLY_API_KEY=your cutt.ly api key
 ```
 
+Get your api key for this link: https://cutt.ly/edit
 ## Usage
 
 ```php
 <?php
 
 $url = app('cuttly')->short('https://www.google.com/example');
-
+//output e.g: https://cutt.ly/FUMWlUC
 ````
 
 Or using facade with namespace declaration like this:
