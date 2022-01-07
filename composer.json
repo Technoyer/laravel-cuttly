@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Technoyer\\LaravelCuttly\\": "src/"
+            "Technoyer\\Cuttly\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,6 @@
             "email": "technoyer@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
