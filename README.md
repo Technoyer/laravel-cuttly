@@ -58,6 +58,6 @@ Or using facade with namespace declaration like this:
 ```php
 <?php
 
-$url = cuttly::short('https://www.google.com/example');
+$url = Cuttly::short('https://www.google.com/example');
 //output e.g: https://cutt.ly/FUMWlUC
 ````
