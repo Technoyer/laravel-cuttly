@@ -1,7 +1,13 @@
 {
     "name": "technoyer/laravel-cuttly",
     "description": "Helping developers using Cutt.ly API for shorter URLs",
+    "keywords": ["laravel", "cuttly", "bitly", "package", "short", "url", "link", "technoyer", "short url", "laravel short link"],
     "license": "MIT",
+    "homepage": "https://github.com/Technoyer/laravel-cuttly",
+    "support": {
+        "issues": "https://github.com/Technoyer/laravel-cuttly/issues",
+        "source": "https://github.com/Technoyer/laravel-cuttly"
+    },
     "autoload": {
         "psr-4": {
             "Technoyer\\Cuttly\\": "src/"
