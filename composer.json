@@ -24,5 +24,9 @@
       }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "illuminate/support": "^5.8 || ^6.0 || ^7.0 || ^8.0"
+    }
 }
