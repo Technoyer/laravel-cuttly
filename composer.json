@@ -13,6 +13,16 @@
             "email": "technoyer@gmail.com"
         }
     ],
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Technoyer\\Cuttly\\CuttlyServiceProvider"
+        ],
+        "aliases": {
+          "Bitly": "Technoyer\\Cuttly\\Facade\\Cuttly"
+        }
+      }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
